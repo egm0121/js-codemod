@@ -65,6 +65,15 @@ for properties and methods.
 jscodeshift -t js-codemod/transforms/object-shorthand.js <file>
 ```
 
+#### `object-shorthand-literal-method`
+
+Transforms object literals to use [ES6 shorthand](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Object_initializer#New_notations_in_ECMAScript_2015)
+for properties and methods handles also methods assigned to literal properties.
+
+```sh
+jscodeshift -t js-codemod/transforms/object-shorthand-literal-method.js <file>
+```
+
 #### `outline-require`
 
 ```sh
